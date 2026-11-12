@@ -1,12 +1,49 @@
 <!doctype html>
 <html lang="ko">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>PANN 사용 안내</title>
-<main>
-  <h1>PANN 사용 안내</h1>
-  <p>PANN은 메모와 그림, 할 일을 한 판에서 연결하는 개인 작업 공간을 목표로 합니다.</p>
-  <p>이 페이지는 문서 사이트의 첫 연결을 확인하는 화면입니다.</p>
-  <a href="https://pann-web.vercel.app/">PANN 웹 화면 열기</a>
-</main>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#163e35">
+  <title>PANN Docs · 사용 안내 준비 중</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; min-height: 100svh; display: grid; place-items: center;
+      padding: clamp(18px, 5vw, 72px); color: #fff8df;
+      background: #eee7d4; font-family: system-ui, sans-serif;
+    }
+    main {
+      width: min(100%, 960px); position: relative; isolation: isolate;
+      padding: clamp(26px, 7vw, 82px); border-radius: 9px;
+      background-color: #163e35;
+      background-image: radial-gradient(#bdd5bd38 1px, transparent 1px);
+      background-size: 19px 19px;
+      box-shadow: 0 8px 0 #c3aa85, 0 18px 40px #35442c24;
+    }
+    header { font: 700 1rem ui-monospace, monospace; letter-spacing: .12em; }
+    h1 { margin: clamp(64px, 9vw, 100px) 0 16px; font-size: clamp(2.3rem, 6.5vw, 5rem);
+      line-height: 1.15; letter-spacing: -.06em; word-break: keep-all; }
+    p { margin: 0; color: #d5e3d5; line-height: 1.7; word-break: keep-all; }
+    a { display: inline-block; margin-top: 36px; padding: 12px 20px; background: #f7db86;
+      color: #18392e; border-radius: 5px; font-weight: 700; text-decoration: none; }
+    a:hover { background: #ffe9a7; }
+    a:focus-visible { outline: 3px solid white; outline-offset: 5px; }
+    .note { position: absolute; right: 9%; top: 10%; width: clamp(50px, 9vw, 90px);
+      aspect-ratio: 1; background: #f5d982; transform: rotate(8deg);
+      box-shadow: 4px 5px 0 #082e24; }
+    .note::before { content: ''; position: absolute; width: 40%; height: 15%; top: -7%;
+      left: 30%; background: #bad0b7; transform: rotate(-12deg); }
+    .note::after { content: ''; position: absolute; inset: 32% 19%;
+      background: repeating-linear-gradient(to bottom, #88753b 0 2px, transparent 2px 9px); }
+  </style>
+</head>
+<body>
+  <main>
+    <header>PANN Docs</header>
+    <span class="note" aria-hidden="true"></span>
+    <h1>사용 안내를<br>준비 중입니다.</h1>
+    <p>메모와 그림, 할 일을 한 판에 담는 방법을 곧 소개할게요.</p>
+    <a href="https://pann-web.vercel.app/">PANN 열기 <span aria-hidden="true">↗</span></a>
+  </main>
+</body>
 </html>
